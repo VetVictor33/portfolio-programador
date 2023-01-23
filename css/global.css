@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+li,
+a {
+    font-family: 'Playfair Display';
+}
+
+p {
+    font-family: 'Maven Pro';
+}
+
+a {
+    text-decoration: none;
+    color: none;
+}
+
+a:hover {
+    color: #906090;
+    font-weight: bold;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #001848, #301860);
+    border-left: #fff solid 1px;
+    border-right: #fff solid 1px;
+    padding: 0 5%;
+
+}
+
+section {
+    margin: 0 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border-top: solid 1px #906090;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: solid #906090 1px;
+}
+
+.header img {
+    width: 40px;
+    height: 40px;
+
+    margin: 10px;
+}
+
+.header-navbar ul {
+    display: flex;
+    gap: 60px;
+    margin-right: 100px;
+}
+
+.presentation-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 50vh;
+}
+
+.preseentation-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.preseentation-text h1 {
+    padding: 20px;
+
+    font-size: 33px;
+    letter-spacing: 10px;
+    text-align: center;
+
+    background: -webkit-linear-gradient(left, aliceblue 0%, #301860 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.preseentation-text h2 {
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.presentation-section p {
+    padding: 20px 75px;
+    margin-top: 25px;
+
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.presentation-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.presentation-img img {
+    max-width: auto;
+    max-height: 350px;
+    border-radius: 100px 5px;
+}
+
+.socialmedia-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 10vh;
+
+    border-bottom: solid #906090 1px;
+    border-top: solid #906090 1px;
+}
+
+.socialmedia-navbar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px
+}
+
+.socialmedia-navbar li {
+    display: flex;
+}
+
+.icon {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.projetcs-introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projetcs-introduction h1 {
+    margin-top: 30px;
+
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+
+.projetcs-introduction p {
+    margin: 40px;
+    width: 600px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.projects-cards {
+    display: flex;
+    margin: 100px 0;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-right: 30px;
+    width: 33%;
+}
+
+.card-img {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-img:hover {
+    border: solid 3px #906090;
+}
+
+.project-card h2 {
+    text-align: center;
+    margin: 10px 0
+}
+
+.project-card p {
+    text-align: center;
+}
