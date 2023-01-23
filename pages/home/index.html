@@ -5,17 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/global.css">
     <title>Programador - Victor Feliciano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <img src="" alt="ícone programador">
+    <header class="header">
+        <img src="../../assets/header-icon.png" alt="ícone programador">
         <nav class="header-navbar">
             <ul>
-                <li>Apresentação</li>
-                <li>Projetos</li>
-                <li>Contato</li>
+                <li><a href="../home/index.html">Apresentação</a></li>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -24,23 +30,27 @@
             <article class="preseentation-text">
                 <h1>Victor Feliciano</h1>
                 <h2>programador full stack</h2>
-                <h3>olhando o mendo por meio de código</h3>
+                <p>enxergando o mundo por meio do código</p>
             </article>
             <div class="presentation-img">
-                <img src=""
+                <img src="../../assets/perfil.jpg"
                     alt="minha foto: pessoa parda de pele clara, cabelo crespo castanho escuro, olhos castanhos sorrindo">
             </div>
         </section>
         <nav class="socialmedia-navbar">
             <ul>
-                <li>
-                    <img src="" alt="GitHub icon">
-                    GitHub
-                </li>
-                <li>
-                    <img src="" alt="LinkedIn icon">
-                    LinkedIn
-                </li>
+                <a href="">
+                    <li>
+                        <img class="icon" src="../../assets/github.png" alt="">
+                        GitHub
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <img class="icon" src="../../assets/linkedin.png" alt="">
+                        LinkedIn
+                    </li>
+                </a>
             </ul>
         </nav>
         <section class="projects-section">
@@ -50,19 +60,25 @@
             </article>
             <div class="projects-cards">
                 <div class="project-card">
-                    <img src="" alt="">
+                    <a href="">
+                        <img class="card-img" src="../../assets/curriculo-web.png" alt="">
+                    </a>
                     <h2>Curriculo Web</h2>
                     <p>Primeiro projeto realizado para sedimentar os conhecimentos em HTML5 e CSS3, além de arriscar um
                         pouco de JavaScript.</p>
                 </div>
                 <div class="project-card">
-                    <img src="" alt="">
+                    <a href="">
+                        <img class="card-img" src="" alt="">
+                    </a>
                     <h2>Portfólio de Escritor</h2>
                     <p>Utilizei HTML5, CSS3 e um pouco de JavaScript para apresentar alguns dos textos que produzi para
                         um projeto pessoal relacionado à produção de crônicas e contos.</p>
                 </div>
                 <div class="project-card">
-                    <img src="" alt="">
+                    <a href="">
+                        <img class="card-img" src="" alt="">
+                    </a>
                     <h2>Clone da home page do Duolingo</h2>
                     <p>Uma forma que encontrei de treinar como seria atender a uma demanda de um designer ao reproduzir
                         a página do site de ensino de idiomas. Ainda não adicionei responsividade, porém planejo fazê-lo
