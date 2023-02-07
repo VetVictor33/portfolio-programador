@@ -16,9 +16,9 @@
 .preseentation-text h1 {
     padding: 34px 0;
 
-    font-size: 33px;
+    font-size: 40px;
     letter-spacing: 10px;
-    font-weight: 600;
+    font-weight: bolder;
     text-align: center;
 
     background: -webkit-linear-gradient(right, aliceblue 0%, #301860 100%);
@@ -26,9 +26,6 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-
-
-
 }
 
 .preseentation-text h2 {
@@ -42,7 +39,7 @@
     margin-top: 25px;
 
     font-size: 20px;
-    letter-spacing: 16px;
+    letter-spacing: 10px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -88,7 +85,7 @@
     display: flex;
 }
 
-.icon {
+.icon-link {
     width: 20px;
     margin-right: 5px;
 }
@@ -96,6 +93,15 @@
 .projects-section {
     display: flex;
     flex-direction: column;
+}
+
+.projects-img {
+    background-image: url(../assets/icons/project.png);
+    height: 10rem;
+    width: 10rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .projetcs-introduction {
@@ -131,11 +137,40 @@
 .card-img {
     height: 300px;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
+
+    background-position: center;
+    background-size: cover;
+}
+
+#curriculo-web {
+    background-image: url(../assets/curriculo-web.png);
+}
+
+#portfolio-escritor {
+    background-image: url(../assets/portfolio-escritor.png);
+}
+
+#clone-duolingo {
+    background-image: url(../assets/duolingo-clone.png);
+}
+
+#desafio-portfolio {
+    background-image: url(../assets/desafio02.png);
+}
+
+#form-signup {
+    background-image: url(../assets/form-signup.png);
+}
+
+#form {
+    background-image: url(../assets/form.png);
+    background-position: right;
 }
 
 .card-img:hover {
     border: solid 3px #906090;
+    cursor: pointer;
 }
 
 .project-card h2 {

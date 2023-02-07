@@ -1,4 +1,9 @@
 .about-me {
+    display: flex;
+    align-items: center;
+}
+
+.about-me-text {
     text-align: center;
 
     display: flex;
@@ -14,8 +19,66 @@
     margin: 10px 0;
 }
 
+.about-me .text-with-icon .paragraph {
+    margin: 0;
+    width: 40vw;
+}
+
 .about-me .text-description {
     width: 80%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-glass {
+    background-image: url(../../assets/icons/search.png);
+}
+
+.icon1 {
+    background-image: url(../../assets/icons/html-5.png);
+}
+
+.icon2 {
+    background-image: url(../../assets/icons/css-3.png);
+}
+
+.icon3 {
+    background-image: url(../../assets/icons/js.png);
+}
+
+.about-img {
+    height: 50vh;
+    width: 30vw;
+    background-image: url(../../assets/icons/coding.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center();
+
+}
+
+.text-with-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+}
+
+
+.title-icon {
+    display: flex;
+    align-items: center;
+}
+
+.education-icon {
+    background-image: url(../../assets/icons/scholarship.png);
+}
+
+.complementary-icon {
+    background-image: url(../../assets/icons/puzzle.png);
 }
 
 .course .text-description {

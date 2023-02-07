@@ -89,3 +89,12 @@ footer {
     line-height: 30px;
     text-align: center;
 }
+
+.icon {
+    width: 100px;
+    height: 100px;
+
+    margin: 25px 30px;
+
+    background-size: cover;
+}

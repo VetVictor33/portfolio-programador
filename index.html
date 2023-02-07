@@ -13,12 +13,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="icon" href="./assets/header-icon.png">
+    <link rel="icon" href="./assets/icons/header-icon.png">
 </head>
 
 <body>
     <header class="header">
-        <img src="./assets/header-icon.png" alt="ícone programador">
+        <img src="./assets/icons/header-icon.png" alt="ícone programador">
         <nav class="header-navbar">
             <ul>
                 <li><a href="./index.html">Apresentação</a></li>
@@ -32,7 +32,7 @@
             <article class="preseentation-text">
                 <h1>Victor Feliciano</h1>
                 <h2>programador full stack</h2>
-                <p>codando e aprendendo</p>
+                <p>aprendendo a enxergar o mundo pelo código</p>
             </article>
             <div class="presentation-img">
             </div>
@@ -41,13 +41,13 @@
             <ul>
                 <a href="https://github.com/VetVictor33">
                     <li>
-                        <img class="icon" src="./assets/github.png" alt="">
+                        <img class="icon-link" src="./assets/github.png" alt="">
                         GitHub
                     </li>
                 </a>
                 <a href="https://www.linkedin.com/in/victorjfeliciano/">
                     <li>
-                        <img class="icon" src="./assets/linkedin.png" alt="">
+                        <img class="icon-link" src="./assets/linkedin.png" alt="">
                         LinkedIn
                     </li>
                 </a>
@@ -56,6 +56,7 @@
         <section class="projects-section">
             <article class="projetcs-introduction">
                 <h1 class="main-title">Projetos Pessoais</h1>
+                <div class="icon projects-img"></div>
                 <p class="text-description">Esses são alguns dos projetos que desenvolvi para praticar meus
                     conhecimentos em programação.
                     Fiz questão de deixar os projetos mais simples, de quando iniciei o aprendizado, para enfatizar a
@@ -64,33 +65,48 @@
             </article>
             <div class="projects-cards">
                 <div class="project-card">
-                    <a href="https://github.com/VetVictor33/curriculo-web">
-                        <img class="card-img" src="./assets/curriculo-web.png" alt="">
-                    </a>
+                    <div class="card-img" id="curriculo-web"></div>
                     <h2>Curriculo Web</h2>
                     <p>Primeiro projeto realizado para sedimentar os conhecimentos em HTML5 e CSS3, além de arriscar um
                         pouco de JavaScript.</p>
                 </div>
                 <div class="project-card">
-                    <a href="https://github.com/VetVictor33/portfolio-escritor">
-                        <img class="card-img" src="./assets/portfolio-escritor.png" alt="">
-                    </a>
+                    <div class="card-img" id="portfolio-escritor"></div>
                     <h2>Portfólio de Escritor</h2>
                     <p>Utilizei HTML5, CSS3 e um pouco de JavaScript para apresentar alguns dos textos que produzi para
                         um projeto pessoal relacionado à produção de crônicas e contos.</p>
                 </div>
                 <div class="project-card">
-                    <a href="https://github.com/VetVictor33/clone-duolingo">
-                        <img class="card-img" src="./assets/duolingo-clone.png" alt="">
-                    </a>
+                    <div class="card-img" id="clone-duolingo"></div>
                     <h2>Clone da home page do Duolingo</h2>
                     <p>Uma forma que encontrei de treinar como seria atender a uma demanda de um designer ao reproduzir
                         a página do site de ensino de idiomas. Ainda não adicionei responsividade, porém planejo fazê-lo
                         no futuro.</p>
                 </div>
+                <div class="project-card">
+                    <div class="card-img" id="desafio-portfolio"></div>
+                    <h2>Portfólio</h2>
+                    <p>Nesse projeto criei um portfólio fictício com base em um layout do figma como forma de avaliação
+                        de um curso. As tecnologias utilizadas foram CSS e HTML.</p>
+                </div>
+                <div class="project-card">
+                    <div class="card-img" id="form-signup"></div>
+                    <h2>Formulário de inscrição</h2>
+                    <p>Projeto passado como exercício de um curso no qual foi proposto o desenvolvimento de um
+                        formulário de inscrição em vestibular. Foi utilizado HTML, CSS e
+                        JavaScript para validar os dados.</p>
+                </div>
+                <div class="project-card">
+                    <div class="card-img" id="form"></div>
+                    <h2>Formulário para Login</h2>
+                    <p>Projeto passado como exercício de um curso no qual foi proposto o desenvolvimento do Front End de
+                        login e sign in de um site fictício com base em um layout do figma. Foi utilizado HTML, CSS e
+                        JavaScript para validar os dados e adicionar comportamento ao site.</p>
+                </div>
             </div>
         </section>
     </main>
+    <script type="text/javascript" src="./script/script.js"></script>
     <footer>
         Victor Feliciano - &copy2023
     </footer>
