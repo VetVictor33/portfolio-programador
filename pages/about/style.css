@@ -1,0 +1,54 @@
+.about-me {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me .main-title {
+    margin-bottom: 10px;
+}
+
+.about-me .paragraph {
+    margin: 10px 0;
+}
+
+.about-me .text-description {
+    width: 80%;
+}
+
+.course .text-description {
+    width: fit-content;
+    margin: 0;
+    margin-left: 3%;
+}
+
+.smaller {
+    font-size: 13px;
+}
+
+.smaller-title {
+    font-size: 25px;
+}
+
+.medium {
+    font-size: 20px;
+}
+
+.medium-title {
+    font-size: 30px;
+}
+
+.bigger {
+    font-size: 22px;
+}
+
+.course {
+    padding: 15px 0;
+}
+
+.course :last-child {
+    width: 60%;
+    text-align: left;
+}

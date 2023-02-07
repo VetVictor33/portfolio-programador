@@ -1,0 +1,148 @@
+.presentation-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 50vh;
+}
+
+.preseentation-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.preseentation-text h1 {
+    padding: 34px 0;
+
+    font-size: 33px;
+    letter-spacing: 10px;
+    font-weight: 600;
+    text-align: center;
+
+    background: -webkit-linear-gradient(right, aliceblue 0%, #301860 100%);
+
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+
+
+}
+
+.preseentation-text h2 {
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.presentation-section p {
+    padding: 20px 75px;
+    margin-top: 25px;
+
+    font-size: 20px;
+    letter-spacing: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.presentation-img {
+    background-image: url('../../assets/perfil2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 90%;
+    width: 30%;
+
+    border-radius: 170px;
+
+    margin-right: 5%;
+}
+
+.presentation-img img {
+    max-width: auto;
+    max-height: 350px;
+    border-radius: 100px 5px;
+}
+
+.socialmedia-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 10vh;
+
+    border-bottom: solid #906090 1px;
+    border-top: solid #906090 1px;
+}
+
+.socialmedia-navbar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px
+}
+
+.socialmedia-navbar li {
+    display: flex;
+}
+
+.icon {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.projetcs-introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-destaque {
+    font-weight: bold;
+}
+
+.projects-cards {
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 15px;
+    width: 33%;
+}
+
+.card-img {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-img:hover {
+    border: solid 3px #906090;
+}
+
+.project-card h2 {
+    text-align: center;
+    margin: 10px 0
+}
+
+.project-card p {
+    text-align: center;
+}
