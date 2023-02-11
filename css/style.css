@@ -86,7 +86,9 @@
 }
 
 .icon-link {
-    width: 20px;
+    height: 30px;
+    width: auto;
+    margin: auto 0;
     margin-right: 5px;
 }
 
@@ -175,9 +177,11 @@
 
 .project-card h2 {
     text-align: center;
-    margin: 10px 0
+    margin: 10px 0;
+    font-size: 26px;
 }
 
 .project-card p {
     text-align: center;
+    font-size: 22px;
 }

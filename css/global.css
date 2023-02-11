@@ -6,6 +6,12 @@
     color: aliceblue;
 }
 
+html {
+    margin: 1vh 5vw;
+
+    background-image: linear-gradient(to bottom right, #001848, #301860);
+}
+
 ul {
     list-style: none;
 }
@@ -15,6 +21,14 @@ h2,
 li,
 a {
     font-family: 'Playfair Display';
+}
+
+li {
+    font-size: 28px;
+}
+
+a {
+    color: inherit;
 }
 
 p {
@@ -32,11 +46,7 @@ a:hover {
 }
 
 body {
-    background-image: linear-gradient(to bottom right, #001848, #301860);
-    border-left: #fff solid 1px;
-    border-right: #fff solid 1px;
     padding: 0 5%;
-
 }
 
 section {
@@ -75,7 +85,7 @@ footer {
 .main-title {
     margin-top: 30px;
 
-    font-size: 40px;
+    font-size: 44px;
     letter-spacing: 6px;
 }
 
@@ -84,7 +94,7 @@ footer {
 
     margin: 40px;
 
-    font-size: 18px;
+    font-size: 23px;
     letter-spacing: 3px;
     line-height: 30px;
     text-align: center;

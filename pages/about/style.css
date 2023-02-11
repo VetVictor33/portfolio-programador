@@ -3,6 +3,10 @@
     align-items: center;
 }
 
+.about-me-text p:nth-child(3) {
+    width: 40%;
+}
+
 .about-me-text {
     text-align: center;
 
@@ -17,6 +21,9 @@
 
 .about-me .paragraph {
     margin: 10px 0;
+    font-size: 23px;
+    letter-spacing: 5px;
+    line-height: 40px;
 }
 
 .about-me .text-with-icon .paragraph {
@@ -25,7 +32,7 @@
 }
 
 .about-me .text-description {
-    width: 80%;
+    width: 90%;
 }
 
 .icons {
@@ -50,21 +57,19 @@
 }
 
 .about-img {
-    height: 50vh;
-    width: 30vw;
-    background-image: url(../../assets/icons/coding.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center();
+    height: 100%;
+}
+
+.about-img img {
+    height: 25vh;
+    width: auto;
+    float: right;
+
 
 }
 
 .text-with-icon {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    width: 100%;
+    width: 50%;
 }
 
 
