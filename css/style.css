@@ -137,31 +137,6 @@
     background-size: cover;
 }
 
-#curriculo-web {
-    background-image: url(../assets/curriculo-web.png);
-}
-
-#portfolio-escritor {
-    background-image: url(../assets/portfolio-escritor.png);
-}
-
-#clone-duolingo {
-    background-image: url(../assets/duolingo-clone.png);
-}
-
-#desafio-portfolio {
-    background-image: url(../assets/desafio02.png);
-}
-
-#form-signup {
-    background-image: url(../assets/form-signup.png);
-}
-
-#form {
-    background-image: url(../assets/form.png);
-    background-position: right;
-}
-
 .card-img:hover {
     border: solid 3px #906090;
     cursor: pointer;
@@ -176,6 +151,11 @@
 .project-card p {
     text-align: center;
     font-size: 22px;
+    padding: 1px;
+
+    height: 25vh;
+
+    overflow: scroll;
 }
 
 @media (min-width:900px) {
