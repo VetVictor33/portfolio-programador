@@ -3,17 +3,17 @@ const compEdu = document.querySelector('.complementary');
 function postCompEdu() {
     const comEduArray = [
         {
-            title: "Python para Data Science",
+            title: "Python para Data Science(Alura)",
             date: "2021",
             description: "Princípios de Dada Science e Python com uso de Anaconda e Júpiter. Introdução à análise de dados"
         },
         {
-            title: "Programação em Android básica pts1, 2 e 3",
+            title: "Programação em Android básica pts1, 2 e 3(Alura)",
             date: "2021",
             description: "Princípios da programação mobile com uso de Java e Android Studio"
         },
         {
-            title: "Java e Orientação a Objetos",
+            title: "Java e Orientação a Objetos(Alura)",
             date: "2021",
             description: "Princípios da orientação a objetos e bases de Java com uso de Eclipse IDE"
         },
