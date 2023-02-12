@@ -21,10 +21,6 @@ a {
     font-family: 'Playfair Display';
 }
 
-li {
-    font-size: 28px;
-}
-
 a {
     color: inherit;
 }
@@ -43,14 +39,8 @@ a:hover {
     font-weight: bold;
 }
 
-body {
-    padding: 0 5vw;
-    width: 90vw;
-    margin: 0 auto;
-}
-
 section {
-    margin: 0 60px;
+    width: 100%;
 }
 
 footer {
@@ -63,12 +53,16 @@ footer {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
-    border-bottom: solid #906090 1px;
+    height: 10vh;
+    width: 100%;
+
     position: sticky;
     top: 0;
+
+    border-bottom: solid #906090 1px;
 }
 
 .header img {
@@ -78,12 +72,16 @@ footer {
     margin: 10px;
 }
 
-.header-navbar ul {
+.header ul {
     display: flex;
-    justify-content: space-between;
-    width: 25vw;
+    justify-content: center;
+
+    gap: 3vw;
     padding-right: 1vw;
-    gap: 1vw;
+}
+
+.header li {
+    font-size: 22px;
 }
 
 .main-title {
@@ -94,9 +92,7 @@ footer {
 }
 
 .text-description {
-    width: 60%;
-
-    margin: 40px;
+    width: 100%;
 
     font-size: 23px;
     letter-spacing: 3px;
@@ -105,47 +101,37 @@ footer {
 }
 
 .icon {
-    width: 100px;
-    height: 100px;
+    height: 50px;
+    width: 50px;
 
     margin: 25px 30px;
 
     background-size: contain;
 }
 
-@media (max-width: 1600px) {
-    li {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 1000px) {
+@media (min-width: 1200px) {
     body {
-        width: 100vw;
-        margin: 0;
-        padding: 0;
-    }
-
-    main {
-        width: 100%;
+        padding: 0 5vw;
+        width: 90vw;
+        margin: 0 auto;
     }
 
     .header {
-        justify-content: space-around;
+        justify-content: space-between;
+
     }
 
-    .header img,
-    .icon-link {
-        height: 20px;
-        width: 20px;
+    .header-navbar ul {
+        justify-content: space-between;
+        width: 100%
     }
 
-    .header ul {
-        justify-content: center;
-        gap: 20px;
+    * li {
+        font-size: 18px;
     }
 
-    .header li {
-        font-size: 10px;
+    .icon {
+        width: 100px;
+        height: 100px;
     }
 }

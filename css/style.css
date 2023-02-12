@@ -44,20 +44,6 @@
     text-transform: uppercase;
 }
 
-.presentation-img {
-    background-image: url('../assets/perfil2.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    height: 90%;
-    width: 30%;
-
-    border-radius: 170px;
-
-    margin-right: 5%;
-}
-
 .presentation-img img {
     max-width: auto;
     max-height: 350px;
@@ -86,7 +72,7 @@
 }
 
 .icon-link {
-    height: 30px;
+    height: 20px;
     width: auto;
     margin: auto 0;
     margin-right: 5px;
@@ -112,6 +98,10 @@
     align-items: center;
 }
 
+.projetcs-introduction .main-title {
+    text-align: center;
+}
+
 .texto-destaque {
     font-weight: bold;
 }
@@ -121,7 +111,8 @@
     text-align: center;
 
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
 
     justify-content: center;
     margin: 100px 0;
@@ -133,11 +124,11 @@
     align-items: center;
 
     margin: 15px;
-    width: 33%;
+    width: 100%;
 }
 
 .card-img {
-    height: 300px;
+    height: 40vh;
     width: 100%;
     border-radius: 10px;
 
@@ -186,32 +177,42 @@
     font-size: 22px;
 }
 
+@media (min-width:900px) {
+    .presentation-img {
+        background-image: url('../assets/perfil2.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
 
-@media (max-width: 1000px) {
+        height: 90%;
+        width: 30%;
+
+        border-radius: 170px;
+
+        margin-right: 5%;
+    }
+}
+
+@media (min-width: 1200px) {
 
     .icon-link {
-        height: 20px;
-        width: 20px;
+        height: 30px;
+        width: 30px;
     }
 
-    .projetcs-introduction .main-title {
-        text-align: center;
-    }
+
 
     .text-description {
-        width: 100%;
-        margin: 0;
+        width: 60%;
+        margin: 0 40px;
     }
 
-    .project-cards {
-        flex-wrap: nowrap;
-        flex-direction: column;
-        background-color: red;
-
+    .projects-cards {
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 
-    .project-cards,
     .project-card {
-        width: 90%;
+        width: 30%;
     }
 }

@@ -11,10 +11,11 @@
 
 .text-description {
     margin: 10px 0;
-    font-size: 23px;
+    padding: 0 2vw;
+    font-size: 18px;
     letter-spacing: 5px;
     line-height: 40px;
-    width: 60%;
+    width: 100%;
 }
 
 .icons {
@@ -39,23 +40,16 @@
 }
 
 .about-img {
-    height: 100%;
+    display: none;
 }
-
-.text-with-icon img {
-    height: 25vh;
-    width: auto;
-    float: right;
-}
-
-.text-with-icon .text-description {
-    width: 100%;
-}
-
 
 .title-icon {
     display: flex;
     align-items: center;
+}
+
+.education {
+    border-top: double 0.5vh #906090;
 }
 
 .education-icon {
@@ -73,23 +67,23 @@
 }
 
 .smaller {
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
 .smaller-title {
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 .medium {
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .medium-title {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .bigger {
-    font-size: 22px;
+    font-size: 1.6rem;
 }
 
 .course {
@@ -101,21 +95,28 @@
     text-align: left;
 }
 
-@media (max-width: 1500px) {
-    * {
-        text-align: center;
-    }
+@media (min-width: 1200px) {
 
     .text-with-icon img {
-        display: none;
+        display: block;
     }
 
     .text-description {
+        width: 60%;
+    }
+
+    .text-with-icon .text-description {
         width: 100%;
     }
 
-    .icon {
-        height: 50px;
-        width: 50px;
+    .text-with-icon img {
+        height: auto;
+        width: 300px;
+        float: right;
+    }
+
+    .about-img {
+        display: block;
+        height: 100%;
     }
 }
