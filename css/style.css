@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
 
-    height: 50vh;
+    height: 65vh;
 }
 
 .preseentation-text {
@@ -179,6 +179,10 @@
 }
 
 @media (min-width:900px) {
+    .presentation-section {
+        height: 50vh;
+    }
+
     .presentation-img {
         background-image: url('../assets/perfil2.jpg');
         background-position: center;
