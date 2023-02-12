@@ -109,6 +109,7 @@ footer {
     margin: 25px 30px;
 
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 @media (min-width:400px) {

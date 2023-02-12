@@ -200,7 +200,3 @@
         width: 30%;
     }
 }
-
-.project-card:last-child {
-    order: -1;
-}
