@@ -7,8 +7,6 @@
 }
 
 html {
-    margin: 1vh 5vw;
-
     background-image: linear-gradient(to bottom right, #001848, #301860);
 }
 
@@ -46,7 +44,9 @@ a:hover {
 }
 
 body {
-    padding: 0 5%;
+    padding: 0 5vw;
+    width: 90vw;
+    margin: 0 auto;
 }
 
 section {
@@ -67,6 +67,8 @@ footer {
     align-items: center;
 
     border-bottom: solid #906090 1px;
+    position: sticky;
+    top: 0;
 }
 
 .header img {
@@ -78,8 +80,10 @@ footer {
 
 .header-navbar ul {
     display: flex;
-    gap: 60px;
-    margin-right: 100px;
+    justify-content: space-between;
+    width: 25vw;
+    padding-right: 1vw;
+    gap: 1vw;
 }
 
 .main-title {
@@ -106,5 +110,42 @@ footer {
 
     margin: 25px 30px;
 
-    background-size: cover;
+    background-size: contain;
+}
+
+@media (max-width: 1600px) {
+    li {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .header {
+        justify-content: space-around;
+    }
+
+    .header img,
+    .icon-link {
+        height: 20px;
+        width: 20px;
+    }
+
+    .header ul {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .header li {
+        font-size: 10px;
+    }
 }

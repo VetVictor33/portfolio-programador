@@ -185,3 +185,33 @@
     text-align: center;
     font-size: 22px;
 }
+
+
+@media (max-width: 1000px) {
+
+    .icon-link {
+        height: 20px;
+        width: 20px;
+    }
+
+    .projetcs-introduction .main-title {
+        text-align: center;
+    }
+
+    .text-description {
+        width: 100%;
+        margin: 0;
+    }
+
+    .project-cards {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        background-color: red;
+
+    }
+
+    .project-cards,
+    .project-card {
+        width: 90%;
+    }
+}

@@ -1,38 +1,20 @@
 .about-me {
     display: flex;
     align-items: center;
-}
-
-.about-me-text p:nth-child(3) {
-    width: 40%;
-}
-
-.about-me-text {
-    text-align: center;
-
-    display: flex;
     flex-direction: column;
-    align-items: center;
+
 }
 
 .about-me .main-title {
     margin-bottom: 10px;
 }
 
-.about-me .paragraph {
+.text-description {
     margin: 10px 0;
     font-size: 23px;
     letter-spacing: 5px;
     line-height: 40px;
-}
-
-.about-me .text-with-icon .paragraph {
-    margin: 0;
-    width: 40vw;
-}
-
-.about-me .text-description {
-    width: 90%;
+    width: 60%;
 }
 
 .icons {
@@ -60,16 +42,14 @@
     height: 100%;
 }
 
-.about-img img {
+.text-with-icon img {
     height: 25vh;
     width: auto;
     float: right;
-
-
 }
 
-.text-with-icon {
-    width: 50%;
+.text-with-icon .text-description {
+    width: 100%;
 }
 
 
@@ -119,4 +99,23 @@
 .course :last-child {
     width: 60%;
     text-align: left;
+}
+
+@media (max-width: 1500px) {
+    * {
+        text-align: center;
+    }
+
+    .text-with-icon img {
+        display: none;
+    }
+
+    .text-description {
+        width: 100%;
+    }
+
+    .icon {
+        height: 50px;
+        width: 50px;
+    }
 }
