@@ -57,7 +57,9 @@ footer {
     align-items: center;
 
     height: 10vh;
-    width: 100%;
+    width: 85%;
+
+    margin: auto;
 
     position: sticky;
     top: 0;
@@ -81,7 +83,7 @@ footer {
 }
 
 .header li {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .main-title {
@@ -107,6 +109,18 @@ footer {
     margin: 25px 30px;
 
     background-size: contain;
+}
+
+@media (min-width:400px) {
+    .header {
+        width: 100%;
+
+        margin: 0;
+    }
+
+    .header li {
+        font-size: 22px;
+    }
 }
 
 @media (min-width: 1200px) {
