@@ -180,15 +180,21 @@
 }
 
 @media (min-width: 650px) {
+    .projects-section {
+        padding-bottom: 10rem;
+    }
+
     .projects-cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-card p {
+        height: fit-content;
+        max-height: 15vh;
     }
 }
 
 @media (min-width:900px) {
-    .presentation-section {
-        height: 50vh;
-    }
 
     .presentation-img {
         background-image: url('../assets/perfil2.jpg');
@@ -216,6 +222,13 @@
         width: 30px;
     }
 
+    .projects-section {
+        padding-bottom: 5rem;
+    }
+
+    .projects-cards {
+        padding: 5px;
+    }
 
 
     .text-description {
@@ -227,10 +240,10 @@
     .projects-section {
         padding-bottom: 2rem;
     }
+}
 
+@media (min-width: 1500px) {
     .projects-cards {
         grid-template-columns: repeat(4, 1fr);
-        padding: 5px;
-
     }
 }
