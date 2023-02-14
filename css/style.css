@@ -83,7 +83,7 @@
     height: fit-content;
     flex-direction: column;
 
-    padding-bottom: 20rem;
+    padding-bottom: 50rem;
 }
 
 .projects-img {
@@ -120,8 +120,8 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
-    row-gap: 1%;
-
+    row-gap: 3%;
+    column-gap: 1%;
     justify-items: center;
     align-items: center;
 
@@ -181,7 +181,7 @@
 
 @media (min-width: 650px) {
     .projects-section {
-        padding-bottom: 10rem;
+        padding-bottom: 15rem;
     }
 
     .projects-cards {
@@ -238,7 +238,7 @@
     }
 
     .projects-section {
-        padding-bottom: 2rem;
+        padding-bottom: 10rem;
     }
 }
 
