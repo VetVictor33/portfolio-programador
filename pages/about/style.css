@@ -96,6 +96,10 @@
     text-align: left;
 }
 
+article :last-child {
+    border-top: aliceblue 1px solid;
+}
+
 @media (min-width: 1200px) {
 
     .text-with-icon img {
