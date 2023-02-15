@@ -83,7 +83,7 @@
     height: fit-content;
     flex-direction: column;
 
-    padding-bottom: auto;
+    padding-bottom: 800px;
 }
 
 .projects-img {
@@ -120,7 +120,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
-    row-gap: 3%;
+    row-gap: 1%;
     column-gap: 1%;
     justify-items: center;
     align-items: center;
@@ -162,7 +162,7 @@
     font-size: 22px;
     padding: 1px;
 
-    height: fit-content;
+    height: 50vh;
 
     overflow-y: scroll;
 
@@ -190,7 +190,7 @@
 
     .project-card p {
         height: fit-content;
-        max-height: 15vh;
+        max-height: 35vh;
     }
 }
 
