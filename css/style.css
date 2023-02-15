@@ -83,7 +83,7 @@
     height: fit-content;
     flex-direction: column;
 
-    padding-bottom: 800px;
+    padding-bottom: 1rem
 }
 
 .projects-img {
@@ -119,7 +119,7 @@
 
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: repeat(auto, 1fr);
     row-gap: 1%;
     column-gap: 1%;
     justify-items: center;
@@ -162,7 +162,7 @@
     font-size: 22px;
     padding: 1px;
 
-    height: 50vh;
+    height: 25vh;
 
     overflow-y: scroll;
 
