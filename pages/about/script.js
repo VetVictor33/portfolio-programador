@@ -36,9 +36,9 @@ function postCompEdu() {
         newCourse.appendChild(newDescription);
 
         newCourse.classList.add('course');
-        newTitle.classList.add('text-description', 'bigger');
-        newDate.classList.add('text-description', 'smaller');
-        newDescription.classList.add('text-description', 'medium');
+        newTitle.classList.add('text-description', 'course-name');
+        newDate.classList.add('text-description', 'course-date');
+        newDescription.classList.add('text-description', 'course-description');
 
         newTitle.innerHTML = comEduArray[i].title;
         newDate.innerHTML = comEduArray[i].date;
