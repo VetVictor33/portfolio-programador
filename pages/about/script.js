@@ -24,7 +24,7 @@ function postCompEdu() {
         }
     ]
 
-    for (let i = 0; i < comEduArray.length; i++) {
+    comEduArray.forEach((comEdu) => {
         const newCourse = document.createElement('article');
         const newTitle = document.createElement('p');
         const newDate = document.createElement('p');
@@ -40,11 +40,11 @@ function postCompEdu() {
         newDate.classList.add('text-description', 'course-date');
         newDescription.classList.add('text-description', 'course-description');
 
-        newTitle.innerHTML = comEduArray[i].title;
-        newDate.innerHTML = comEduArray[i].date;
-        newDescription.innerHTML = comEduArray[i].description;
+        newTitle.innerHTML = comEdu.title;
+        newDate.innerHTML = comEdu.date;
+        newDescription.innerHTML = comEdu.description;
 
-    }
+    })
 }
 
 postCompEdu();
