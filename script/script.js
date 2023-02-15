@@ -17,7 +17,7 @@ function postProjects() {
         },
         {
             imgSrc: "./assets/projects/portfolio-escritor.png",
-            title: "Portfoílio de Escritor",
+            title: "Portfólio de Escritor",
             description: "Utilizei HTML5, CSS3 e um pouco de JavaScript para apresentar alguns dos textos que produzi para um projeto pessoal relacionado à produção de crônicas e contos.",
             link: "https://github.com/VetVictor33/portfolio-escritor"
         },
@@ -50,8 +50,14 @@ function postProjects() {
             title: "Tech Store",
             description: "Loja de produtos eletrônicos feita baseada em um curso da Skillshare. As technologias utilizadas foram HTML, CSS e JavaScript. Lancei mão da criação de novos elementos da DOM por meio do script para dar comportamento ao site, permitindo selecionar itens específicos, relizar filtragem por preço, categoria, além de busca pelo nome do produto, tudo isso sem necessidade de trocar a página. Também brinquei um pouco com Local Storage de forma a salvar os item selecionados pelo usuário e colocá-los no carrinho de compras.",
             link: "https://github.com/VetVictor33/tech-store-skillshare"
+        }, {
+            imgSrc: "./assets/projects/gourmet-burger.png",
+            title: "Gourmet Burger",
+            description: "Site que apresenta uma franquia de restaurantes baseado num curso da Skillshare. Todo o projeto foi feito utilizando o framework Bootstrap para estilizar a páginas e adicionar comportamentamento. As características mais interessantes do projeto são a responsividade, a presença do carousel, de um menu dropdown e de um modal.",
+            link: "https://github.com/VetVictor33/skillshare-gourmet-burger"
         }
     ]
+    let j = projectsArrays.length
     for (let i = 0; i < projectsArrays.length; i++) {
         const newCard = document.createElement('div');
         const cardImgDiv = document.createElement('div');
@@ -70,7 +76,11 @@ function postProjects() {
         projectTitle.innerHTML = projectsArrays[i].title;
         projectDescription.innerHTML = projectsArrays[i].description;
 
+        newCard.style.order = `${j}`
+        j--
+
         link(newCard.firstChild, projectsArrays[i].link)
+
 
     }
 }

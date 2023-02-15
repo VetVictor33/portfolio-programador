@@ -66,6 +66,11 @@
     margin-left: 3%;
 }
 
+.education .course .text-description {
+    width: 100%;
+    margin: 0
+}
+
 .smaller {
     font-size: 0.8rem;
 }
@@ -106,7 +111,7 @@ article :last-child {
         display: block;
     }
 
-    .text-description {
+    .education .course .text-description {
         width: 60%;
     }
 
