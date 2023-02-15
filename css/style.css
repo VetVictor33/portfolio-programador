@@ -83,7 +83,7 @@
     height: fit-content;
     flex-direction: column;
 
-    padding-bottom: 65rem;
+    padding-bottom: 500px;
 }
 
 .projects-img {
@@ -162,7 +162,7 @@
     font-size: 22px;
     padding: 1px;
 
-    height: 10vh;
+    height: 50vh;
 
     overflow-y: scroll;
 
