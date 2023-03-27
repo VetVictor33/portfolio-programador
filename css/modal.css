@@ -1,0 +1,80 @@
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.747);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.modal {
+    width: 80vw;
+    height: 50vh;
+
+    background-image: linear-gradient(to bottom right, #001848, #301860);
+    color: aliceblue;
+
+    padding: 1%;
+
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    text-align: center;
+}
+
+.modal form h1 {
+    width: 70%;
+    margin: auto;
+}
+
+.modal form p {
+    font-size: large;
+    margin: auto;
+
+    margin-top: 7%;
+}
+
+.modal .bts {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+
+}
+
+.modal button {
+    background-color: #301860;
+
+    border: none;
+    border-radius: 8px;
+
+    width: 90%;
+
+    padding: 2%;
+    margin: 10px auto;
+
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.modal button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+@media(min-width: 650px) {
+    .modal {
+        width: 60vw;
+    }
+}
+
+@media(min-width: 1050px) {
+    .modal {
+        width: 40vw;
+    }
+}
